@@ -1,7 +1,6 @@
 package com.github.camelya58.auth_with_google.service;
 
 import com.github.camelya58.auth_with_google.model.User;
-import com.github.camelya58.auth_with_google.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;

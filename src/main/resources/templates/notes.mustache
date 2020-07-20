@@ -15,10 +15,14 @@
     </div>
     <div class="my-3" align="center">
         <form action="/addnote" method="post">
-            <input type="text" name="title" placeholder="Название">
-            <input type="text" name="note" placeholder="Заметка">
+            <label>
+                <input name="title" placeholder="Название"/>
+            </label>
+            <label>
+                <input name="note" placeholder="Заметка"/>
+            </label>
             <input type="hidden" name="_csrf" value="{{_csrf.token}}"/>
-            <input class="button" type="submit" value="+">
+            <input class="button" type="submit" value="+"/>
         </form>
     </div>
     {{#notes}}
